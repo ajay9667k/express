@@ -38,8 +38,8 @@ const Form=()=>{
     
     function Editdata(id)
     {
-        const uname="ajaua"
-       const fdata={Name:uname}
+        const promtvalue=prompt()
+       const fdata={Name:promtvalue}
        const Eid=id 
        fetch(`/api/EditUser/${Eid}`,{
         method:"PUT",

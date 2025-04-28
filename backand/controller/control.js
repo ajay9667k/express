@@ -16,7 +16,8 @@ const data3=(req,res)=>{
   const put= req.params.id
   const vt=req.body
   const rt=vt.Name
-  userdata=userdata.splice(put, 1, rt);
+  userdata.splice(put,1,rt)
+  
 }
 module.exports={
     data,
